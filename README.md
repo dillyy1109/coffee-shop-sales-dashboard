@@ -1,110 +1,135 @@
 # ☕ Coffee Shop Sales Analytics Dashboard
 
-End-to-end sales analytics dashboard built with SQL Server and Tableau using over **58,000 coffee shop transactions**.
+An end-to-end sales analytics project built with **SQL Server** and **Tableau** to analyze over **58,000 coffee shop transactions**. This project demonstrates data cleaning, business KPI analysis, and interactive dashboard development to support data-driven decision-making.
 
-## Project Overview
+---
 
-This project analyzes coffee shop sales data to uncover trends in revenue, product performance, store performance, and customer purchasing behavior. SQL Server was used for data cleaning, transformation, and business analysis, while Tableau was used to build an interactive dashboard for visualizing key business metrics.
+## 📊 Dashboard Preview
 
-## Tools & Technologies
+![Coffee Shop Dashboard](coffeedashboard.png)
+
+---
+
+## 📌 Project Overview
+
+This project explores transactional sales data from a coffee shop chain to uncover insights into revenue trends, store performance, product performance, and customer purchasing behavior.
+
+Using **SQL Server**, the raw data was cleaned, transformed, and analyzed to calculate business KPIs. The cleaned dataset was then visualized in **Tableau**, resulting in an interactive dashboard for business analysis.
+
+---
+
+## 🛠️ Tools & Technologies
 
 - SQL Server
-- DBeaver
+- Azure Data Studio
 - Tableau Public
 - Microsoft Excel
 
-## Dataset
+---
+
+## 📂 Dataset
 
 - **Records:** 58,202 transactions
 - **Industry:** Coffee Shop / Retail
 - **Source:** Maven Analytics Coffee Shop Sales Dataset
 
-## Project Workflow
+---
+
+## 🔄 Project Workflow
 
 ```text
-Raw CSV
-    ↓
+Raw Sales Data (CSV)
+        ↓
 SQL Server
-    ↓
+        ↓
 Data Cleaning & Transformation
-    ↓
+        ↓
 Business KPI Analysis
-    ↓
-Interactive Tableau Dashboard
+        ↓
+Export Clean Dataset
+        ↓
+Tableau Dashboard
 ```
 
-## Dashboard Preview
+---
 
-*(Insert your dashboard screenshot here)*
-
-Example:
-
-```markdown
-![Dashboard](images/dashboard.png)
-```
-
-## Business Questions
-
-This dashboard answers questions such as:
+## 💼 Business Questions Answered
 
 - Which store generates the highest revenue?
-- Which product categories perform best?
-- Which products generate the most revenue?
-- How does revenue change over time?
+- Which product categories contribute the most revenue?
+- Which products are the best sellers?
+- How does monthly revenue change over time?
 - What are the busiest hours of the day?
 
-## SQL Skills Demonstrated
+---
+
+## 💻 SQL Skills Demonstrated
 
 - Data Cleaning
 - Data Transformation
-- Views
+- SQL Views
 - Aggregate Functions
 - GROUP BY
 - ORDER BY
 - Date & Time Functions
 - Business KPI Calculations
 
-## Dashboard Features
+---
 
-- Total Revenue KPI
-- Orders KPI
-- Items Sold KPI
-- Monthly Revenue Trend
-- Revenue by Store
-- Revenue by Product Category
-- Top Products by Revenue
-- Sales by Hour
+## 📈 Dashboard Features
 
-## Key Insights
+- 📌 Total Revenue KPI
+- 📌 Total Items Sold KPI
+- 📌 Total Orders KPI
+- 📈 Monthly Revenue Trend
+- 🏪 Revenue by Store
+- ☕ Revenue by Product Category
+- ⭐ Top 10 Products by Revenue
+- 🕒 Sales by Hour
 
-- Identified the highest-performing store locations by revenue.
-- Compared revenue across product categories.
-- Analyzed monthly sales trends.
-- Identified peak business hours.
-- Highlighted the highest revenue-generating products.
+---
 
-## Repository Structure
+## 🔍 Key Insights
+
+- Hell's Kitchen generated the highest total revenue among all store locations.
+- Coffee products accounted for the largest share of total revenue.
+- Sales peaked during the morning hours, indicating the busiest business period.
+- Revenue increased during late summer before declining toward the end of the year.
+- A small number of products contributed a significant portion of overall revenue.
+
+---
+
+## 📁 Repository Contents
 
 ```
-coffee-shop-sales-dashboard
+coffee-shop-sales-dashboard/
 │
-├── data/
-│   └── coffee_shop_sales_clean.csv
-│
-├── sql/
-│   └── coffee_shop_sales_analysis.sql
-│
-├── tableau/
-│   └── coffee_shop_sales_dashboard.twb
-│
-├── images/
-│   └── dashboard.png
-│
-└── README.md
+├── README.md
+├── coffee_dashboard.twbx
+├── coffee_shop_sales_analysis.sql
+├── coffee_shop_sales_clean.xlsx
+└── coffeedashboard.png
 ```
 
-## Author
+---
+
+## 🎯 Skills Demonstrated
+
+- SQL
+- SQL Server
+- Data Cleaning
+- Data Transformation
+- Business Intelligence
+- Tableau
+- Dashboard Design
+- Data Visualization
+- KPI Reporting
+- Retail Sales Analytics
+
+---
+
+## 👤 Author
 
 **Dilly Nguyen**
 
-Data Science Student at DePaul University
+Data Science Student | DePaul University

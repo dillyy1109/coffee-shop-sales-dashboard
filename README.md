@@ -127,6 +127,13 @@ coffee-shop-sales-dashboard/
 - Retail Sales Analytics
 
 ---
+## 🌐 Live Dashboard
+
+View the interactive dashboard on Tableau Public:
+
+[Coffee Shop Sales Dashboard](https://public.tableau.com/app/profile/dilly.nguyen4004/viz/coffee_dashboard_17829604292120/Dashboard1?publish=yes)
+
+---
 
 ## 👤 Author
 
